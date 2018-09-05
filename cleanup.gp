@@ -1,3 +1,4 @@
+# epslatex.cfg produces gptemp.* files which are meant to be erased
 # Before a system call that modifies current
 # output file use 'set output' to flush plot
 # buffer.

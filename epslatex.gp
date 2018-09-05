@@ -1,4 +1,4 @@
-set terminal epslatex standalone lw 3 header\
+set terminal epslatex color standalone lw 3 header\
     "\\usepackage{amsmath}\n\
     \\usepackage[utf8]{inputenc}"
 
