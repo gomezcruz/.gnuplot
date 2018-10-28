@@ -2,9 +2,7 @@ set loadpath "~/.gnuplot"
 
 load "epslatex.gp"
 
-load "grid3d.gp"
-
-set samples 30; set isosamples 30
+set samples 100; set isosamples 40
 
 set hidden3d
 set pm3d

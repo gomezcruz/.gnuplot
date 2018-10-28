@@ -1,8 +1,6 @@
-# epslatex.cfg produces gptemp.* files which are meant to be erased
-# Before a system call that modifies current
-# output file use 'set output' to flush plot
-# buffer.
+# epslatex.cfg produces gptemp.* files which are meant to be erased.
+# Use 'set output' before a system call that modifies current output file.
 set output
-system "pdflatex -interaction batchmode gptemp.tex &&\
+system "pdflatex gptemp.tex > /dev/null &&\
         mv gptemp.pdf output.pdf &&\
         rm -f gptemp*"

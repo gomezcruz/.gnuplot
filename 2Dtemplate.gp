@@ -2,8 +2,6 @@ set loadpath "~/.gnuplot"
 
 load "epslatex.gp"
 
-load "grid2d.gp"
-
 set samples 300
 
 set xlabel '$x$'
